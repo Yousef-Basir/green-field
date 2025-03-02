@@ -1,0 +1,107 @@
+*{margin: 0; padding: 0; box-sizing: border-box; transition: all 0.2s;}
+
+body{background-color: #1f1f1f;}
+
+#background{width: 1024px; height: 3050px; margin: 0 auto; background-image: url(../images/templatemo_body.jpg);background-repeat: no-repeat; background-position: center; background-attachment: fixed;}
+
+.container{width: 740px; margin: 0 auto;}
+
+header{width: 800px; height: 120px; margin: 0 auto; background-image: url(../images/templatemo_header.jpg); background-repeat: no-repeat;} 
+    header nav ul{margin-left: 5px;}
+     header nav ul li{display: inline-block; margin-left: 30px; height: 40px; width: 105px; text-align: center; line-height: 40px; background-image: url(../images/templatemo_menu_divider.jpg); background-repeat: no-repeat; background-position: right;}
+     header nav ul li a{text-decoration: none; color: black; text-transform: capitalize; display: block;}
+     header nav ul li a:hover{background-image: url(../images/templatemo_menu_hover.jpg); background-position: center;}
+    header h1:nth-of-type(1){color: #fff; text-transform: capitalize; display: inline-block; margin: 25px 0 0 15px;}
+    header h3:nth-of-type(1){color: rgba(255, 255, 255, 0.886); text-transform: capitalize; font-size: small; display: inline-block; margin-left: 10px;}
+    header div{float: right; margin: 25px 20px 0 0;}
+
+main{width: 800px; height: auto; background-image: url(../images/templatemo_main_top.jpg); background-repeat: no-repeat; margin: 0 auto;}
+    main section#a > h2{width: 99%; text-transform: capitalize; border-bottom: 1px solid rgba(130, 122, 122, 0.878); padding-top: 17px;}
+    main section#a figure img{width: 40%; margin-top: 20px; border: 2px solid #fff; border-radius: 5px;}
+     main section#a figure legend{width: 40%;}
+    main .back{width: 800px;height: auto; margin: 0 auto; background-color: #f5f6bc; border-radius: 5px;}
+     main .back #backend > p{width: 40%; margin-top: 10px; color: rgb(105, 101, 101);}
+     main .back #backend > p span{color: #eb7a10;}
+    main aside#one{float: right; width: 400px; margin-top: -340px;}
+     main aside#one h2:nth-of-type(1){text-transform: capitalize; font-weight: lighter;}
+      main aside#one p:nth-of-type(1){color: rgb(105, 101, 101); margin-top: 10px;}
+     main aside#one p:nth-of-type(1) span{color: #eb7a10;}
+     main aside#one h2:nth-of-type(2){font-weight: lighter; margin-top: 33px; text-transform: capitalize;}
+      main aside#one p:nth-of-type(2){color: rgb(105, 101, 101); margin-top: 10px;}
+     main aside#one p:nth-of-type(3){color: rgb(105, 101, 101); margin-top: 10px;}
+     main aside#one h3:nth-of-type(1){text-transform: capitalize; color: #eb7a10; font-size: smaller; margin-top: 10px;}
+    main .back a img{float: right; margin-top: 40px;}
+    main .back img{margin-top: 20px;}
+    main section#b > h2{width: 99%; text-transform: capitalize; border-bottom: 1px solid rgba(186, 180, 180, 0.878); margin-top: 30px;}
+    main section#b figure img{width: 40%; margin-top: 20px; border: 2px solid #fff; border-radius: 5px;}
+     main section#b figure legend{width: 40%;}
+     main section#b p:nth-of-type(1){color: rgb(105, 101, 101); margin-top: 10px; width: 40%;}
+    main section#b p:nth-of-type(2){color: rgb(105, 101, 101); margin-top: 10px; width: 40%;}
+    main aside#two{float: right; width: 400px; margin-top: -330px;}
+     main aside#two h2{text-transform: capitalize; font-weight: lighter;}
+      main aside#two p:nth-of-type(1){margin-top: 10px;}
+     main aside#two p:nth-of-type(2){color: rgb(105, 101, 101); margin-top: 10px;}
+     main aside#two h3{text-transform: capitalize; color: rgb(105, 101, 101);}
+      main aside#two h3 span{text-transform: capitalize; color: #eb7a10; font-size: smaller; margin-top: 10px; font-weight: lighter;}
+     main aside#two ul{list-style-type: none; margin: 20px 0 0 40px; list-style-position:inside;}
+      main aside#two ul li{list-style:url(../images/templatemo_list.jpg)}
+       main aside#two ul li a{text-decoration: none; color: #107e1b; text-transform: capitalize;}
+       main aside#two ul li a:hover{background-color: rgb(92, 92, 197); color: #fff;}
+     main aside#two a img{float: right; margin-top: 80px;}
+     main aside#two img{margin-top: 20px;}
+    section#c .container > h2{width: 99%; text-transform: capitalize; border-bottom: 1px solid rgba(186, 180, 180, 0.878); margin-top: 40px;}
+    section#c .container > p{color: rgb(105, 101, 101); margin-top: 15px;}
+    section#c #top img{border: 2px solid #fff; border-radius: 5px; float: left;}
+    section#c #top h3{display: inline-block; width: 500px; margin-left: 30px; text-transform: capitalize; font-size: small; margin-top: 20px;}
+    section#c #top h3 span{color: #eb7a10;}
+    section#c #top h2{display: inline-block; width: 500px; margin-left: 30px; text-transform: capitalize;}
+    section#c #top p{display: inline-block; width: 500px; margin-left: 30px; margin-top: 24px; color: rgb(105, 101, 101);}
+    section#c #mid{margin: 25px 0 25px 0;}
+    section#c #mid img{border: 2px solid #fff; border-radius: 5px; float: left; clear: left;}
+    section#c #mid h3{display: inline-block; width: 500px; margin-left: 30px; text-transform: capitalize; font-size: small; margin-top: 20px;}
+    section#c #mid h3 span{color: #eb7a10;}
+    section#c #mid h2{display: inline-block; width: 500px; margin-left: 30px; text-transform: capitalize;}
+    section#c #mid p{display: inline-block; width: 500px; margin-left: 30px; margin-top: 24px; color: rgb(105, 101, 101);}
+    section#c #bot{border-top: 1px dashed rgb(158, 190, 144); border-bottom: 1px dashed  rgb(158, 190, 144); padding-bottom: 25px;}
+    section#c #bot img{border: 2px solid #fff; border-radius: 5px; float: left; clear: left;}
+    section#c #bot h3{display: inline-block; width: 500px; margin-left: 30px; text-transform: capitalize; font-size: small; margin-top: 20px;}
+    section#c #bot h3 span{color: #eb7a10;}
+    section#c #bot h2{display: inline-block; width: 500px; margin-left: 30px; text-transform: capitalize;}
+    section#c #bot p{display: inline-block; width: 500px; margin-left: 30px; margin-top: 24px; color: rgb(105, 101, 101);}
+    section#c a img{margin-top: 80px;}
+    main aside#three h2{width: 99%; text-transform: capitalize; border-bottom: 1px solid rgba(186, 180, 180, 0.878); margin-top: 30px;}
+    main aside#three p{color: rgb(105, 101, 101); margin-top: 15px;}
+    section#d div img{float: left;}
+    section#d div img:hover{cursor: no-drop;}
+    section#d img:nth-of-type(2){padding-left: 40px;}
+    section#d img:nth-of-type(3){padding-left: 40px;}
+    section#d img:nth-of-type(5){padding-left: 40px;}
+    section#d img:nth-of-type(6){padding-left: 40px;}
+    section#d img:nth-of-type(8){padding-left: 40px;}
+    section#d img:nth-of-type(9){padding-left: 40px;}
+    section#d a img:nth-of-type(10){float: right; margin-top: 20px;}
+    main aside#four h2{width: 99%; text-transform: capitalize; border-bottom: 1px solid rgba(186, 180, 180, 0.878); margin-top: 50px;}
+    main aside#four p{color: rgb(105, 101, 101); margin-top: 15px;}
+    section#e form fieldset{border: none; margin-top: 30px;}
+    section#e form fieldset legend{text-transform: capitalize; font-weight: bold;}
+    section#e form fieldset h4:nth-of-type(1){text-transform: capitalize; color: rgb(105, 101, 101); margin-top: 10px;}
+    section#e form fieldset h4:nth-of-type(2){text-transform: capitalize; color: rgb(105, 101, 101); margin-top: 10px;}
+    section#e form fieldset h4:nth-of-type(3){text-transform: capitalize; color: rgb(105, 101, 101); margin-top: 10px;}
+    section#e form fieldset input:nth-of-type(1){border: none; border-radius: 3px; background-color: #dddd94; width: 35%;}
+    section#e form fieldset input:nth-of-type(2){border: none; border-radius: 3px; background-color: #dddd94; width: 35%;}
+    section#e form fieldset input:nth-of-type(3){background-color: #dddd94; border: none; width: 40px; border-radius: 3px; color: rgb(105, 101, 101); margin-top: 6px;}
+    section#e form fieldset input:nth-of-type(3):hover{cursor: pointer; background-color: #b8b852;}
+    section#e form fieldset input:nth-of-type(4){background-color: #dddd94; border: none; width: 40px; border-radius: 3px; color: rgb(105, 101, 101); margin-top: 6px; margin-left: 175px;}
+    section#e form fieldset input:nth-of-type(4):hover{cursor: pointer; background-color: #b8b852;}
+    section#e form fieldset textarea{border: none; border-radius: 3px; background-color: #dddd94; display: block; width: 35%; resize: none;}
+    main aside#five{float: right; width: 250px; margin: -315px 100px 0 0;}
+    main aside#five h2:nth-of-type(1){text-transform: capitalize;}
+    main aside#five img{margin-top: 10px; cursor: move;}
+    main aside#five h2:nth-of-type(2){text-transform: capitalize; margin-top: 30px;}
+    main aside#five h4{margin-top: 10px; text-transform: capitalize;}
+    main aside#five p{color: rgb(105, 101, 101);}
+    main aside#five p{color: rgb(105, 101, 101);}
+    #last img{float: right; clear: both; margin-top: 40px;}
+    footer{height: 30px; clear: both; text-align: center; transform: translateY(31px); line-height: 30px;}
+    footer p{color: #fff; text-transform: capitalize;}
+    footer p:hover{color: #ffbb00; font-style: italic; cursor: pointer; transform: scaleX(1.2);}
